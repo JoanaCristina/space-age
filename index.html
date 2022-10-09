@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Age Page</title>
+    <link rel="stylesheet" href="src/style/style.css">
+</head>
+<body>
+   <main>
+    <h1>Space Age</h1>
+   
+    <form action="" id="formulario">
+        <div id="form-container">
+        <div>
+         <label for="segundos">Idade em segundos:</label>
+         <input type="number" id="segundos"   placeholder="Inserir os segundos">
+        </div>
+         
+        <div>
+         <label for="planetas">Escolha um planeta:</label>
+         <select id="selectPlaneta" >
+           <option value="terra">Terra</option>
+           <option value="mercurio">Mercurio</option>
+           <option value="venus">Venus</option>
+           <option value="marte">Marte</option>
+           <option value="jupiter">Jupiter</option>
+           <option value="saturno">Saturno</option>
+           <option value="urano">Urano</option>
+           <option value="neturno">Neturno</option>
+         </select>
+        </div>
+         <input type="submit" id="btnCalcular" value="Calcular idade" >
+         <p id="resultado"></p>
+        
+        </div>
+        </form>
+   
+
+   </main>
+
+
+    
+</body>
+<script src="src/js/main.js"></script>
+</html>
